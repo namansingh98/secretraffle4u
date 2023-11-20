@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Saira Semi Condensed", sans-serif;
+  background-color: #1c211c;
+}
+
+/* .Hero_welcome_text {
+  font-size: calc(1.325rem + 0.9vw);
+} */
+.Hero_Sub_text {
+  background: linear-gradient(
+    180deg,
+    #fff1cb 17.71%,
+    #eadebf 17.71%,
+    #cb8a29 72.92%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
