@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
+import logo from "../../../assets/logo.png"
 
 function Nav() {
   //   const [locale, setLocale] = useState(defaultLocale);
@@ -11,7 +12,7 @@ function Nav() {
   return (
     <div>
          <div className="banner w-full bg-[#212529] flex items-center place-content-center ">
-    <img src="https://secretraffle4u.com/assets/images/logoIcon/logo.png" alt="" className="w-1/5"/>
+    <img src={logo} alt="logo" className="w-1/6 m-5" />
    </div>
       <nav className="bg-[#487644]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

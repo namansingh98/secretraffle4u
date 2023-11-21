@@ -17,3 +17,16 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.bg_gradient {
+  background: -webkit-linear-gradient(
+    270deg,
+    #3a5e22,
+    #3e6d1f 0%,
+    #365027 25%,
+    #243719,
+    #182610 50%,
+    #121c0c 75%,
+    #0c1108 100%
+  );
+}
