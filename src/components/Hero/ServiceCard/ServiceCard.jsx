@@ -8,17 +8,17 @@ import verify from "../../../assets/verify.png"
 import giftcard from "../../../assets/giftcard.png"
 import ticket from "../../../assets/ticket.png"
 import horizontalLeft from "../../../assets/horizontal-left.png"
-
+import jackpot from "../../../assets/jackpot.gif"
 const ServiceCard = () => {
   return (
-    <div className="Service w-full">
-      <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-xl ">
+    <div className="Service w-[90%] md:w-full xl:w-full">
+      <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
         <img
           src={horizontalRight}
           alt=""
           className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
         />
-        <div className="flex items-center">
+        <div className="flex items-center text-sm">
           &nbsp; Asia&#39;s Newest Amazing
           <span className="text-[#F5D148]">
             &nbsp; &#34;Online Lucky Draw Games &#34;
@@ -183,6 +183,38 @@ const ServiceCard = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+        <img
+          src={horizontalRight}
+          alt=""
+          className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
+        />
+        <div className="flex items-center text-sm md:text-md xl:text-xl">
+          &nbsp; Total Jackpot for 
+
+
+          <span className="text-[#F5D148]">
+            &nbsp; &#34;LUCKY DRAW GAMES&#34;
+          </span>
+          &nbsp; &nbsp;{" "}
+          <img
+            src={horizontalLeft}
+            alt=""
+            className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
+          />
+        </div>
+      </div>
+
+      <div className="items-center relative justify-center flex">
+
+        <div>
+
+            <img src={jackpot} alt="lucky-draw" />
+        </div>
+      <div className="z-5 absolute text-white text-6xl font-bold">
+      ฿ 346,551,357
+      </div>
       </div>
     </div>
   );

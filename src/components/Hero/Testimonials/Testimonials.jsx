@@ -89,7 +89,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="flex items-center justify-center m-5">
-      <img src={signUp} alt="sign" className="w-1/2"/>
+      <img src={signUp} alt="sign" className="w-11/12 md:w-1/2 xl:w-1/2"/>
       </div>
     </>
   );

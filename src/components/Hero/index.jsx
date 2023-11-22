@@ -2,6 +2,8 @@ import Slider from "./Swiper/Slider";
 import ServiceCard from "./ServiceCard/ServiceCard"
 import Faq from "./Faq/Faq"
 import Testimonials from "./Testimonials/Testimonials";
+import Explanation from "./Explanaittion/Explanation"
+
 const index = () => {
   return (
     <>
@@ -29,6 +31,8 @@ const index = () => {
         </div>
       </div>
 <ServiceCard/>
+
+<Explanation/>
 
 <Testimonials/>
 

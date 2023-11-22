@@ -29,4 +29,11 @@ body {
     #121c0c 75%,
     #0c1108 100%
   );
+border: 3px solid #f5d148;
+  
+  
+}
+.clippedPath{clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+
+
 }
