@@ -12,8 +12,8 @@ import jackpot from "../../../assets/jackpot.gif"
 const ServiceCard = () => {
   return (
     <>
-    <div className="Service w-full md:w-full xl:w-full">
-      <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
+    <div className="Service w-[90%] md:w-full xl:w-full">
+      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
         <img
           src={horizontalRight}
           alt=""

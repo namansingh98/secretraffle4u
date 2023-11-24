@@ -4,13 +4,13 @@ import deposit_withdraw from "../../../assets/deposit_withdraw.png";
 const Explanation = () => {
   return (
     <>
-      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md md:flex-row xl:flex-row flex-col">
+      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md m-10">
         <img
           src={horizontalRight}
           alt=""
           className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
         />
-        <div className="flex items-center text-sm">
+        <div className="flex items-center text-sm md:text-md xl:text-xl">
           &nbsp; Easy Steps to Sign-Up and
           <span className="text-[#F5D148]">
             &nbsp; get $15 FREE to&#34;Play &#34;
