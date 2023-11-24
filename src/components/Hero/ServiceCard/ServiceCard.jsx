@@ -208,9 +208,9 @@ const ServiceCard = () => {
 
       <div className="items-center relative justify-center flex">
 
-        <div>
+        <div className="flex items-center justify-center">
 
-            <img src={jackpot} alt="lucky-draw" />
+            <img src={jackpot} alt="lucky-draw" className="items-center"/>
         </div>
       <div className="z-5 absolute text-white text-6xl font-bold">
       ฿ 346,551,357

@@ -29,11 +29,57 @@ body {
     #121c0c 75%,
     #0c1108 100%
   );
-border: 3px solid #f5d148;
-  
-  
 }
-.clippedPath{clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
 
+.card_explanation {
+  background: -webkit-linear-gradient(
+    270deg,
+    #3a5e22,
+    #3e6d1f 0%,
+    #365027 25%,
+    #243719,
+    #182610 50%,
+    #121c0c 75%,
+    #0c1108 100%
+  );
+  clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+}
+.cliped {
+  clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+}
 
+.cardbg-1 {
+  background: url("assets/card-bg-1.png");
+  background-position: center;
+  background-size: cover;
+}
+.cardbg-2 {
+  background: url("assets/card-bg-2.png");
+  background-position: center;
+  background-size: cover;
+}
+.cardbg-3 {
+  background: url("assets/card-bg-3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.CardCounterbtn {
+  background: -webkit-linear-gradient(
+    90deg,
+    #38280d,
+    #39280d,
+    #704f19,
+    #9c6e23,
+    #bb842b,
+    #cf922f,
+    #d69731,
+    #d79935,
+    #e8b760,
+    #f4cc7f,
+    #fbd993,
+    #fede9a,
+    #fffaef 110%
+  ) !important;
+  border: none;
 }

@@ -4,7 +4,7 @@ import deposit_withdraw from "../../../assets/deposit_withdraw.png";
 const Explanation = () => {
   return (
     <>
-      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
+      <div className="items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md md:flex-row xl:flex-row flex-col">
         <img
           src={horizontalRight}
           alt=""
@@ -26,49 +26,57 @@ const Explanation = () => {
       <div className="w-full">
         <div className="flex flex-wrap justify-center items-center gap-4 p-4">
           {/* Card 1 */}
-           <div className="w-1/5 bg-[#F5D148] clippedPath">
-          <div className="max-w-xs bg_gradient  text-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4">Step 1</h2>
-            <p>
-              Create an “Account” and get $15 FREE , please follow instructions
-              in your account.
-            </p>
-          </div>
+          <div className="w-[200.714px] h-[220.436px;] bg-[#F5D148] border border-[#F5D148] cliped p-[1px] ">
+            <div className="w-[195px] h-[217px] card_explanation border-1 border-[#F5D148] text-white p-6 rounded-lg text-center">
+              <h2 className="text-[22px]  mb-4">Step 1</h2>
+              <p className="text-[14px]">
+                Create an “Account” and get $15 FREE , please follow
+                instructions in your account.
+              </p>
+            </div>
           </div>
 
           {/* Card 2 */}
-          <div className="w-1/5 bg-[#F5D148] clippedPath">
-          <div className="max-w-xs bg_gradient text-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4">Step 2</h2>
-            <p>Buy “Raffle Tickets” for any games you like.
-All your tickets will be under “My Raffle Tickets” in your “Players Dashboard”.</p>
-          </div>
+          <div className="w-[200.714px] h-[220.436px;] bg-[#F5D148] border border-[#F5D148] cliped p-[1px] ">
+            <div className="w-[195px] h-[217px] card_explanation border-1 border-[#F5D148] text-white p-6 rounded-lg text-center">
+              <h2 className="text-[22px]  mb-4">Step 2</h2>
+              <p className="text-[14px]">
+                Buy “Raffle Tickets” for any games you like. All your tickets
+                will be under “My Raffle Tickets” in your “Players Dashboard”.
+              </p>
+            </div>
           </div>
 
           {/* Card 3 */}
-          <div className="w-1/5 bg-[#F5D148] clippedPath ">
-          <div className="max-w-xs bg_gradient text-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4">Step 3</h2>
-            <p>Wait for “Minimum Tickets” to be sold. our system will pick
-“Random Winners” From tickets sold.</p>
-          </div>
+          <div className="w-[200.714px] h-[220.436px;] bg-[#F5D148] border border-[#F5D148] cliped p-[1px] ">
+            <div className="w-[195px] h-[217px] card_explanation border-1 border-[#F5D148] text-white p-6 rounded-lg text-center">
+              <h2 className="text-[22px]  mb-4">Step 3</h2>
+              <p className="text-[14px]">
+                {" "}
+                Wait for “Minimum Tickets” to be sold. our system will pick
+                “Random Winners” From tickets sold.
+              </p>
+            </div>
           </div>
 
           {/* Card 4 */}
-          <div className="w-1/5 bg-[#F5D148] clippedPath">
-          <div className="max-w-xs bg_gradient text-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4">Step 4</h2>
-            <p>Once the game is over. You can instantly withdraw your “Prize Winnings”.</p>
-          </div>
+          <div className="w-[200.714px] h-[220.436px;] bg-[#F5D148] border border-[#F5D148] cliped p-[1px] ">
+            <div className="w-[195px] h-[217px] card_explanation border-1 border-[#F5D148] text-white p-6 rounded-lg text-center">
+              <h2 className="text-[22px]  mb-4">Step 4</h2>
+              <p className="text-[14px]">
+                Once the game is over. You can instantly withdraw your “Prize
+                Winnings”.
+              </p>
+            </div>
           </div>
 
           {/* Card 5 */}
-          <div className=" w-1/5 bg-[#F5D148] clippedPath">
-          <div className="max-w-xs bg_gradient text-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold mb-4">Step 5</h2>
-            <p>Enjoy spending your &#34;Winnings&#34;.</p>
+          <div className="w-[200.714px] h-[220.436px;] bg-[#F5D148] border border-[#F5D148] cliped p-[1px] ">
+            <div className="w-[195px] h-[217px] card_explanation border-1 border-[#F5D148] text-white p-6 rounded-lg text-center">
+              <h2 className="text-[22px]  mb-4">Step 5</h2>
+              <p>Enjoy spending your &#34;Winnings&#34;.</p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
