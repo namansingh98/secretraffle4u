@@ -11,7 +11,8 @@ import horizontalLeft from "../../../assets/horizontal-left.png"
 import jackpot from "../../../assets/jackpot.gif"
 const ServiceCard = () => {
   return (
-    <div className="Service w-[90%] md:w-full xl:w-full">
+    <>
+    <div className="Service w-full md:w-full xl:w-full">
       <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md ">
         <img
           src={horizontalRight}
@@ -184,6 +185,7 @@ const ServiceCard = () => {
           </div>
         </div>
       </div>
+      </div>
       <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
         <img
           src={horizontalRight}
@@ -206,18 +208,18 @@ const ServiceCard = () => {
         </div>
       </div>
 
-      <div className="items-center relative justify-center flex">
+      <div className="items-center relative w-full justify-center flex">
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center w-full justify-center">
 
-            <img src={jackpot} alt="lucky-draw" className="items-center"/>
+            <img src={jackpot} alt="lucky-draw" className="w-[90%] object-contain"/>
         </div>
-      <div className="z-5 absolute text-white text-6xl font-bold">
+      <div className="z-5 absolute text-white text-xl md:text-6xl xl:text-7xl font-bold">
       ฿ 346,551,357
       </div>
       </div>
-    </div>
-  );
+    
+ </> );
 };
 
 export default ServiceCard;

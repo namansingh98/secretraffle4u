@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import valan from "../../../assets/valantines.jpg";
 import christmas from "../../../assets/christmas.jpg";
 import girl from "../../../assets/girl.png";
+import horizontalLeft from "../../../assets/horizontal-left.png"
+import horizontalRight from "../../../assets/horizontal-right.png"
+
 const CardSection = () => {
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
@@ -43,7 +46,30 @@ const CardSection = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-6 xl:flex-row justify-center items-center p-4 text-center">
+    <>
+
+     <div className="service_title items-center flex font-semibold justify-center text-white md:text-2xl xl:text-4xl text-md mb-5 mt-10">
+        <img
+          src={horizontalRight}
+          alt=""
+          className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]   "
+        />
+        <div className="flex items-center text-sm md:text-md xl:text-xl">
+          &nbsp; Various 
+
+
+          <span className="text-[#F5D148]">
+            &nbsp; &#34;LUCKY DRAW GAMES&#34;
+          </span>
+          &nbsp; &nbsp;{" "}
+          <img
+            src={horizontalLeft}
+            alt=""
+            className="md:w-[70px] md:h-[16px] xl:w-[85px] xl:h-[20px] w-[40px] h-[10px]"
+          />
+        </div>
+      </div>
+        <div className="flex flex-col md:flex-row gap-6 xl:flex-row justify-center items-center p-4 text-center">
       {/* Card 1 */}
       <div className="max-w-sm bg-cover bg-center text-white p-2 rounded-lg shadow-md cardbg-1">
         <h2 className="text-sm font-semibold mb-2">Valentine&#39;s Day</h2>
@@ -206,6 +232,8 @@ const CardSection = () => {
         <p className="mt-4">Buy multiple tickets to win multiple prizes!</p>
       </div>
     </div>
+    </>
+
   );
 };
 

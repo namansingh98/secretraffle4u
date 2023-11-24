@@ -6,8 +6,8 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="w-full flex items-center justify-center rounded-md">
-      <div className="accordion-title w-9/12" onClick={() => setIsActive(!isActive)}>
+    <div className="w-full flex items-center justify-center rounded-md ">
+      <div className="accordion-title w-11/12" onClick={() => setIsActive(!isActive)}>
         <div className="text-white heading flex flex-col border-2 border-[#CEB776] p-4 m-2 items-center rounded-md">
           <div className="flex items-center justify-between w-full">
           

@@ -9,7 +9,7 @@ import guaranteed from "../../../assets/guaranteed.png";
 import logo from "../../../assets/logo.png";
 const Footer = () => {
   return (
-    <footer className="bg-[#252A25]  py-12">
+    <footer className="bg-[#252A25]  py-12 mt-10">
       <div className="container mx-auto justify-center items-center  flex flex-wrap">
         {/* First Column */}
         <div className="w-full flex flex-col items-center justify-center  md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
