@@ -8,6 +8,7 @@ import Login from './components/Utils/Login/Login'
 import Signup from './components/Utils/Sigh up/Signup'
 import Reward from './Pages/Reward/Reward.jsx'
 import Nav from './components/Hero/Navbar/Navbar.jsx'
+import Explanation from './Pages/Game Explanation/Explanation.jsx'
 
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/reward",
     element: <Reward />,
+  },
+  {
+    path: "/explanation",
+    element: <Explanation />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
