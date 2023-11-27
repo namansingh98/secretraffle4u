@@ -2,7 +2,8 @@ import "./App.css";
 import Navbar from "./components/Hero/Navbar/Navbar";
 import Hero from "./components/Hero/index";
 import Footer from "./components/Hero/Footer/Footer";
-
+import { Suspense } from "react";
+import i18n from "./i18n";
 // import browserLang from "browser-lang";
 // import { FormattedMessage, IntlProvider } from "react-intl";
 // const supportedLanguages = [
@@ -109,7 +110,7 @@ function App() {
   // const [messages, setMessages] = useState(null);
   // useEffect(() => {
   //   const url = `https://api.i18nexus.com/project_resources/translations/${locale}/default.json?api_key=${import.meta.env.VITE_I18NEXUS_API_KEY}`;
-    
+
   //   fetch(url)
   //     .then(response => response.json())
   //     .then(data => {
@@ -128,15 +129,35 @@ function App() {
             ))}
           </select> */}
 
-          {/* <h1>Vite + React</h1>
+      {/* <h1>Vite + React</h1>
           <FormattedMessage id="welcome_msg" /> */}
-       <div className="App">
-      <Navbar />
-      <Hero />  
-      
-      <Footer/>
-        </div>
-    
+      <div className="App">
+
+        {/* <Suspense fallback={null}> */}
+
+          {/* sticky bottom right icon  */}
+
+
+          {/* <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
+          <div>
+            <a
+              title="Buy me a beer"
+              className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+            >
+              <img
+                className="object-cover object-center w-full h-full rounded-full"
+                src=""
+              />
+            </a>
+          </div>
+        </div> */}
+          <Navbar />
+          <Hero />
+          <Footer />
+        
+      </div>
+
+
       {/* </IntlProvider> */}
     </>
   );

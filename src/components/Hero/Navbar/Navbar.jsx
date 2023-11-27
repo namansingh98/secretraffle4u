@@ -49,7 +49,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/reward"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Rewards

@@ -6,7 +6,7 @@ export default function Faq() {
 
   return (
     <>
-    <div className=" w-full flex items-center justify-center mb-5">
+    <div className=" w-full flex items-center justify-center mb-8">
       <div className="w-full flex items-center justify-center text-white md:text-xl xl:text-2xl text-md  font-semibold">
         <img
           src={horizontalRight}

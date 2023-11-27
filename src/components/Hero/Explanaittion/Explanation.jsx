@@ -13,7 +13,7 @@ const Explanation = () => {
         <div className="flex items-center text-sm md:text-md xl:text-xl">
           &nbsp; Easy Steps to Sign-Up and
           <span className="text-[#F5D148]">
-            &nbsp; get $15 FREE to&#34;Play &#34;
+            &nbsp; get $15 FREE to &#34;Play&#34;
           </span>
           &nbsp; &nbsp;{" "}
           <img
