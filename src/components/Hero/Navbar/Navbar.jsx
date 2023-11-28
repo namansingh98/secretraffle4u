@@ -35,14 +35,14 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/scratchcards"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Scratch Card
                   </a>
 
                   <a
-                    href="#"
+                    href="/explanation"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Game Explanation

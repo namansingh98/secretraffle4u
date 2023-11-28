@@ -31,7 +31,7 @@ const Footer = () => {
             <li>Contact Us</li>
             <li>FAQs</li>
             <li>Payment Guaranteed Policy</li>
-            <li>Promotions Details</li>
+            <li><a href="/promotions">Promotions Details</a></li>
           </ul>
         </div>
 

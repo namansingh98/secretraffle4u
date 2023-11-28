@@ -1,9 +1,6 @@
 import "./App.css";
-import Navbar from "./components/Hero/Navbar/Navbar";
 import Hero from "./components/Hero/index";
-import Footer from "./components/Hero/Footer/Footer";
-import { Suspense } from "react";
-import i18n from "./i18n";
+// import i18n from "./i18n";
 // import browserLang from "browser-lang";
 // import { FormattedMessage, IntlProvider } from "react-intl";
 // const supportedLanguages = [
@@ -151,9 +148,7 @@ function App() {
             </a>
           </div>
         </div> */}
-          <Navbar />
           <Hero />
-          <Footer />
         
       </div>
 

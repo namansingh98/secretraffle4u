@@ -7,8 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from './components/Utils/Login/Login'
 import Signup from './components/Utils/Sigh up/Signup'
 import Reward from './Pages/Reward/Reward.jsx'
-import Nav from './components/Hero/Navbar/Navbar.jsx'
+import Navbar from './components/Hero/Navbar/Navbar.jsx'
 import Explanation from './Pages/Game Explanation/Explanation.jsx'
+import Footer from './components/Hero/Footer/Footer.jsx'
+import Promotions from './Pages/Promotion/Promotions.jsx'
+import Cards from './Pages/scrat cards/Cards.jsx'
 
 
 
@@ -36,9 +39,19 @@ const router = createBrowserRouter([
     path: "/explanation",
     element: <Explanation />,
   },
+  {
+    path: "/promotions",
+    element: <Promotions />,
+  },
+  {
+    path: "/scratchcards",
+    element: <Cards />,
+  },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navbar/>
     <RouterProvider router={router} />
+    <Footer/>
   </React.StrictMode>,
 )

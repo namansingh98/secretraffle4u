@@ -10,7 +10,7 @@ import lotteryClassic from "../../assets/lottery-classic.jpg";
 const Explanation = () => {
   return (
     <>
-      <div className="sitebg w-full ">
+      <div className="sitebg w-full mt-10">
         <div className="flex justify-center  place-items-center ">
           <div className="main_heading ">
             <h1 className="text-6xl text-center reward_sub font-semibold ">

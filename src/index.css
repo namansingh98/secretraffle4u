@@ -198,3 +198,30 @@ body {
   background-color: transparent;
   background-size: cover;
 }
+
+.secretHeading {
+  text-transform: uppercase;
+  color: #d4c07e;
+  background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #ac8a4d 76%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-Text_heading {
+  background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #ac8a4d 76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+background-clip: text;}
+
+
+.card_bgmain{
+  background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #AC8A4D 76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+buybtn a{
+  background: linear-gradient(90deg, #AC8A4D 0%, #EAD17F 99.99%, #F3C904 100%, #F3CB04 100%);
+}
+
+.bgshadow{box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.55);}
