@@ -11,7 +11,7 @@ import Navbar from './components/Hero/Navbar/Navbar.jsx'
 import Explanation from './Pages/Game Explanation/Explanation.jsx'
 import Footer from './components/Hero/Footer/Footer.jsx'
 import Promotions from './Pages/Promotion/Promotions.jsx'
-import Cards from './Pages/scrat cards/Cards.jsx'
+import Cards from './Pages/secretcards/Cards.jsx'
 import "./components/Utils/global/utils.css"
 
 
