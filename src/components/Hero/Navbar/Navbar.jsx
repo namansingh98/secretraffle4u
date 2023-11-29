@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
   //   const [locale, setLocale] = useState(defaultLocale);
@@ -20,47 +21,47 @@ function Nav() {
             <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
+                  <Link
                     href="#"
                     className="  text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="#"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Lucky Draw Games
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/scratchcards"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Scratch Card
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/explanation"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Game Explanation
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/reward"
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Rewards
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/login "
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Register/Login
-                  </a>
+                  </Link>
                 </div>
 
                 {/* <select onChange={event => setLocale(event.target.value)}>
@@ -131,40 +132,40 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
+                <Link
                   href="#"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Dashboard
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Team
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Calendar
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Reports
-                </a>
+                </Link>
               </div>
             </div>
           )}
