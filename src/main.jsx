@@ -12,7 +12,7 @@ import Explanation from './Pages/Game Explanation/Explanation.jsx'
 import Footer from './components/Hero/Footer/Footer.jsx'
 import Promotions from './Pages/Promotion/Promotions.jsx'
 import Cards from './Pages/scrat cards/Cards.jsx'
-
+import "./components/Utils/global/utils.css"
 
 
 const router = createBrowserRouter([

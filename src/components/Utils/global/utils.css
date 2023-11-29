@@ -1,0 +1,217 @@
+
+.Hero_Sub_text {
+    background: linear-gradient(
+      180deg,
+      #fff1cb 17.71%,
+      #eadebf 17.71%,
+      #cb8a29 72.92%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .bg_gradient {
+    background: -webkit-linear-gradient(
+      270deg,
+      #3a5e22,
+      #3e6d1f 0%,
+      #365027 25%,
+      #243719,
+      #182610 50%,
+      #121c0c 75%,
+      #0c1108 100%
+    );
+  }
+  
+  .card_explanation {
+    background: -webkit-linear-gradient(
+      270deg,
+      #3a5e22,
+      #3e6d1f 0%,
+      #365027 25%,
+      #243719,
+      #182610 50%,
+      #121c0c 75%,
+      #0c1108 100%
+    );
+    clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+  }
+  .cliped {
+    clip-path: polygon(25% 0, 100% 0, 100% 75%, 75% 100%, 0 100%, 0 25%);
+  }
+  
+  .cardbg-1 {
+    background: url("assets/card-bg-1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .cardbg-2 {
+    background: url("assets/card-bg-2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .cardbg-3 {
+    background: url("assets/card-bg-3.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .CardCounterbtn {
+    background: -webkit-linear-gradient(
+      90deg,
+      #38280d,
+      #39280d,
+      #704f19,
+      #9c6e23,
+      #bb842b,
+      #cf922f,
+      #d69731,
+      #d79935,
+      #e8b760,
+      #f4cc7f,
+      #fbd993,
+      #fede9a,
+      #fffaef 110%
+    ) !important;
+    border: none;
+  }
+  .login_head {
+    background: linear-gradient(
+      #5b4516,
+      #b4903a 5%,
+      #b4903a,
+      #fffea6,
+      #d6b65f,
+      #b4903a,
+      #b4903a,
+      #5b4516 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .loginbtn:hover {
+    box-shadow: 0 0 15px #b4903a;
+    background: linear-gradient(
+      #5b4516,
+      #b4903a 5%,
+      #b4903a,
+      #fffea6,
+      #d6b65f,
+      #b4903a,
+      #b4903a,
+      #5b4516 100%
+    );
+  }
+  
+  .loginbtn {
+    background: linear-gradient(
+      #5b4516,
+      #b4903a 5%,
+      #b4903a,
+      #fffea6,
+      #d6b65f,
+      #b4903a,
+      #b4903a,
+      #5b4516 100%
+    );
+  }
+  
+  .loginBg {
+    background: url("/src/assets/loginbg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signUp {
+    background: linear-gradient(
+      #5b4516,
+      #b4903a 5%,
+      #b4903a,
+      #fffea6,
+      #d6b65f,
+      #b4903a,
+      #b4903a,
+      #5b4516 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .banner_reward {
+    background: url("/src/assets/banner-bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  .reward_status {
+    background: url("/src/assets/bg-shape-2.jpg");
+  }
+  
+  .reward_table_heading {
+    background: -webkit-linear-gradient(#fff1cb 25.1%, #5f4a01 100%);
+    border-bottom: #ccb575 1px solid;
+  }
+  
+  .thead_none {
+    border: none;
+  }
+  
+  .reward_cover_imgs {
+    background: url("/src/assets/right-raffle-ticket.png") right top no-repeat,
+      url("/src/assets/left-55.png") left bottom no-repeat;
+  }
+  
+  .reward_sub {
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    background: linear-gradient(
+      180deg,
+      #fff1cb 17.71%,
+      #eadebf 17.71%,
+      #cb8a29 72.92%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .reward_heading {
+    letter-spacing: 0.01em;
+    background: linear-gradient(180deg, #fff -17.3%, #000 101.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .sitebg {
+    background: url("/src/assets/site-bg.png");
+    background-color: transparent;
+    background-size: cover;
+  }
+  
+  .secretHeading {
+    text-transform: uppercase;
+    color: #d4c07e;
+    background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #ac8a4d 76%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-Text_heading {
+    background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #ac8a4d 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  background-clip: text;}
+  
+  
+  .card_bgmain{
+    background-image: -webkit-linear-gradient(270deg, #ead17f 25%, #AC8A4D 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  buybtn a{
+    background: linear-gradient(90deg, #AC8A4D 0%, #EAD17F 99.99%, #F3C904 100%, #F3CB04 100%);
+  }
+  
+  .bgshadow{box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.55);}

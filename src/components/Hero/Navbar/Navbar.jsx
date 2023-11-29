@@ -56,7 +56,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/login "
                     className="text-white px-3 py-2 rounded-md text-xl font-medium"
                   >
                     Register/Login
